@@ -2,7 +2,7 @@ package visualizer;
 
 public class Garden {
 
-    public static final int GARDEN_SIZE = 4;
+    public static final int GARDEN_SIZE = 3;
 
     private Plant[][] gardenGrid = new Plant[GARDEN_SIZE][GARDEN_SIZE];
 

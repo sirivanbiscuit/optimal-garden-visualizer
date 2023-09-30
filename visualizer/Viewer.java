@@ -12,8 +12,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JToggleButton;
 
-import visualizer.Plant.PlantType;
-
 public class Viewer extends JFrame {
 
     private static final int OFF_X = 16;
@@ -108,6 +106,7 @@ public class Viewer extends JFrame {
                 j.setSelected(false);
                 j.setIcon(null);
                 garden.set(x, y, null);
+                refresh();
             }
         }
     }
